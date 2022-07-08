@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Books = (props) => {
-const {title, author} = props
+const Books = () => {
+  const { title, author } = useState();
   return (
     <div>
       <ul>
@@ -18,4 +18,3 @@ const {title, author} = props
 };
 
 export default Books;
-
