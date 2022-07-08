@@ -4,7 +4,7 @@ const Categories = (props) => {
 
   return (
     <div>
-      <h1>Book Categorries</h1>
+      <button>Check Status</button>
     </div>
   );
 };
