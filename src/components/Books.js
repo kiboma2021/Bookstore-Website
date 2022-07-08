@@ -1,10 +1,18 @@
 import React from 'react';
 
 const Books = (props) => {
-
+const {title, author} = props
   return (
     <div>
-      <h1>Book List</h1>
+      <ul>
+        <li>{title}</li>
+        <li>{author}</li>
+      </ul>
+      <ul>
+        <li>Comment </li>
+        <li>Remove </li>
+        <li>Edit </li>
+      </ul>
     </div>
   );
 };
