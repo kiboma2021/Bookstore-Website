@@ -16,7 +16,8 @@ const AddBook = () => {
           placeholder="Add author"
           name="author"
           className="input-author"
-        />      
+        />
+        <button type="submit">ADD BOOK</button>  
       </form>
     </div>
   );

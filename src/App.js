@@ -4,7 +4,7 @@ import {
 import React from 'react';
 import AddBook from './components/AddBook';
 import Books from './components/Books';
-import Header from './components/Header';
+import Header from './components/Navbar';
 import Categories from './components/Categories';
 
 const App = () => {
